@@ -35,5 +35,3 @@ jobs:
           
           echo "Événement : $GITHub_EVENT_NAME"
       
-      - name: sortie
-        run: exit 1
