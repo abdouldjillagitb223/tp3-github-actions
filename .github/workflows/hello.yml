@@ -13,14 +13,13 @@ jobs:
 
         run: echo "Hello from GitHub Actions"
       
-jobs:
-  test:
+  command:
     runs-on: ubuntu-latest
     steps:
       - name: Afficher un message detailee
 
         run:
-          python --version
-          cd
+          python --version |
+          cd |
           dir /a-d
 
