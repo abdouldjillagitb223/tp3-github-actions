@@ -13,6 +13,9 @@ jobs:
 
         run: echo "Hello from GitHub Actions"
       
+jobs:
+  test:
+    runs-on: ubuntu-latest
     steps:
       - name: Afficher un message detailee
 
@@ -20,3 +23,4 @@ jobs:
           python --version
           cd
           dir /a-d
+
