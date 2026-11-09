@@ -22,4 +22,10 @@ jobs:
           python --version |
           cd |
           ls
+      - name: Informations GitHub
+        run: 
+          echo "Branche : $GitHub_REF_NAME" |
+          echo "Commit : $GitHub_SHA" |
+          echo "Événement : $GitHub_EVENT_NAME"
+
 
