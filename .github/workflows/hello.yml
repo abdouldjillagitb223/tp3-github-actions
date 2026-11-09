@@ -23,7 +23,6 @@ jobs:
           cd |
           ls
 
-
       - name: Informations GitHub
         run: |
           echo "Branche : $GITHub_REF_NAME"
