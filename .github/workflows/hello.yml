@@ -25,10 +25,10 @@ jobs:
 
 
       - name: Informations GitHub
-        run: 
-          echo "Branche : $GITHub_REF_NAME"|
+        run: |
+          echo "Branche : $GITHub_REF_NAME"
           
-          echo "Commit : $GITHub_SHA"|
+          echo "Commit : $GITHub_SHA"
           
           echo "Événement : $GITHub_EVENT_NAME"
 
