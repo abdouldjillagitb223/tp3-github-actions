@@ -12,3 +12,11 @@ jobs:
       - name: Afficher un message 
 
         run: echo "Hello from GitHub Actions"
+      
+    steps:
+      - name: Afficher un message detailee
+
+        run:
+          python --version
+          cd
+          dir /a-d
